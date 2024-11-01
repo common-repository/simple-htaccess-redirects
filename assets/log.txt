@@ -1,0 +1,300 @@
+
+=== User: Mike Date: 08-01-2019 05:46 ===
+
+Redirect 301 http://packerlandweb.com/ http://packerlandweb.com/about-us/
+
+=== User: Mike Date: 08-01-2019 05:46 ===
+
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+=== User: packerland Date: 08-15-2019 08:10 ===
+
+Redirect 301 http://09i.5f4.myftpupload.com/foobar http://09i.5f4.myftpupload.com/
+
+=== User: packerland Date: 08-15-2019 08:10 ===
+
+Redirect 302 http://09i.5f4.myftpupload.com/foobar http://09i.5f4.myftpupload.com/
+
+=== User: packerland Date: 08-15-2019 08:11 ===
+
+ErrorDocument 500 http://09i.5f4.myftpupload.com/
+
+=== User: packerland Date: 08-15-2019 08:11 ===
+
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+=== User: packerland Date: 08-15-2019 08:11 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType text/css "access plus 15 seconds"
+</IfModule>
+
+=== User: packerland Date: 08-15-2019 08:11 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType text/javascript "access plus 20 seconds"
+ExpiresByType application/javascript "access plus 20 seconds"
+</IfModule>
+
+=== User: packerland Date: 08-15-2019 08:12 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType text/css "access plus 15 seconds"
+</IfModule>
+
+=== User: packerland Date: 08-15-2019 08:12 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType text/css "access plus 15 seconds"
+</IfModule>
+
+=== User: packerland Date: 08-15-2019 08:12 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType text/javascript "access plus 20 seconds"
+ExpiresByType application/javascript "access plus 20 seconds"
+</IfModule>
+
+=== User: packerland Date: 08-15-2019 08:13 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType text/css "access plus 15 seconds"
+</IfModule>
+
+=== User: packerland Date: 08-15-2019 08:13 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType text/javascript "access plus 20 seconds"
+ExpiresByType application/javascript "access plus 20 seconds"
+</IfModule>
+
+=== User: packerland Date: 08-15-2019 08:14 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType image/png "access plus 20 "
+</IfModule>
+
+=== User: packerland Date: 08-15-2019 08:14 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType image/jpg "access plus 20 seconds"
+</IfModule>
+
+=== User: packerland Date: 08-15-2019 08:27 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType image/png "access plus 20 "
+ExpiresByType image/jpg "access plus 20 seconds"
+ExpiresByType text/javascript "access plus 20 seconds"
+ExpiresByType application/javascript "access plus 20 seconds"
+ExpiresByType text/css "access plus 15 seconds"
+</IfModule>
+
+=== User: packerland Date: 08-15-2019 08:30 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType text/css "access plus 15 seconds"
+</IfModule>
+
+=== User: packerland Date: 08-15-2019 08:30 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType text/css "access plus 15 seconds"
+</IfModule>
+
+=== User: packerland Date: 08-15-2019 08:30 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType text/javascript "access plus 20 seconds"
+ExpiresByType application/javascript "access plus 20 seconds"
+</IfModule>
+
+=== User: packerland Date: 08-15-2019 08:30 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType image/png "access plus 20 "
+ExpiresByType text/javascript "access plus 20 seconds"
+ExpiresByType application/javascript "access plus 20 seconds"
+</IfModule>
+
+=== User: Miranda Date: 08-19-2019 06:04 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType image/png "access plus 3 "
+ExpiresByType image/jpg "access plus 4 month"
+ExpiresByType text/javascript "access plus 2 hour"
+ExpiresByType application/javascript "access plus 2 hour"
+ExpiresByType text/css "access plus 1 week"
+</IfModule>
+
+=== User: Miranda Date: 08-19-2019 06:15 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType image/png "access plus 3 seconds"
+</IfModule>
+
+=== User: Miranda Date: 08-19-2019 06:15 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType image/png "access plus 3 seconds"
+</IfModule>
+
+=== User: Miranda Date: 08-19-2019 06:16 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType image/jpg "access plus 4 hour"
+</IfModule>
+
+=== User: Miranda Date: 08-19-2019 06:16 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType text/css "access plus 3 seconds"
+</IfModule>
+
+=== User: Miranda Date: 08-19-2019 06:17 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType text/css "access plus 3 seconds"
+</IfModule>
+
+=== User: Miranda Date: 08-19-2019 06:20 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType image/png "access plus 3 seconds"
+ExpiresByType image/jpg "access plus 4 year"
+ExpiresByType text/javascript "access plus 2 week"
+ExpiresByType application/javascript "access plus 2 week"
+ExpiresByType text/css "access plus 3 month"
+</IfModule>
+
+=== User: Miranda Date: 08-19-2019 06:25 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType image/png "access plus 3 hour"
+</IfModule>
+
+=== User: Miranda Date: 08-19-2019 06:26 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType image/png "access plus 3 year"
+</IfModule>
+
+=== User: Miranda Date: 08-19-2019 06:27 ===
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType image/png "access plus 3 week"
+ExpiresByType image/jpg "access plus 4 month"
+ExpiresByType text/javascript "access plus 2 hour"
+ExpiresByType application/javascript "access plus 2 hour"
+ExpiresByType text/css "access plus 1 seconds"
+</IfModule>
+
+=== User: Miranda Date: 09-04-2019 03:35 ===
+
+Redirect 301 https://packerlandwebsitesbasic.com/about-us/ https://packerlandwebsitesbasic.com/
+
+=== User: Miranda Date: 09-04-2019 05:24 ===
+
+Redirect 301 https://packerlandwebsitesbasic.com/about-us-foo/ https://packerlandwebsitesbasic.com/about-us/
+
+=== User: Miranda Date: 09-04-2019 05:29 ===
+
+Redirect 301 https://packerlandwebsitesbasic.com/about-us-foo/ https://packerlandwebsitesbasic.com/about-us/
+
+=== User: Miranda Date: 09-04-2019 05:33 ===
+
+Redirect 301 /about-us-foo /about-us
+
+=== User: Miranda Date: 09-04-2019 05:35 ===
+
+Redirect 301 https://packerlandwebsitesbasic.com/about-us-foo https://packerlandwebsitesbasic.com/about-us/
+
+=== User: Miranda Date: 09-04-2019 05:48 ===
+
+Redirect 301 https://packerlandwebsitesbasic.com/foo https://packerlandwebsitesbasic.com
+
+=== User: Miranda Date: 09-04-2019 05:49 ===
+
+Redirect 301 /foo /about-us
+
+=== User: Miranda Date: 09-04-2019 05:51 ===
+
+Redirect 301 /foobar /about-us
+
+=== User: Miranda Date: 09-04-2019 06:09 ===
+
+Redirect 301 /foobar /about-us
+
+=== User: Miranda Date: 09-04-2019 06:12 ===
+
+Redirect 301 https://packerlandwebsitesbasic.com/foo-bar https://packerlandwebsitesbasic.com/about-us/
+
+=== User: Miranda Date: 09-04-2019 06:16 ===
+
+Redirect 301 https://packerlandwebsitesbasic.com/foo-bar https://packerlandwebsitesbasic.com/about-us/
+
+=== User: Miranda Date: 09-04-2019 06:22 ===
+
+Redirect 302 https://packerlandwebsitesbasic.com/302 https://packerlandwebsitesbasic.com/
+
+=== User: Miranda Date: 09-04-2019 09:58 ===
+
+Redirect 301 /foo-bar https://packerlandwebsitesbasic.com/about-us/
+
+=== User: Miranda Date: 09-04-2019 09:59 ===
+
+Redirect 301 https://packerlandwebsitesbasic.com/page-slug https://packerlandwebsitesbasic.com/
+
+=== User: Miranda Date: 09-04-2019 10:02 ===
+
+Redirect 302 https://packerlandwebsitesbasic.com/foo-bar https://packerlandwebsitesbasic.com/about-us/
+
+=== User: Miranda Date: 09-04-2019 10:02 ===
+
+Redirect 301 https://packerlandwebsitesbasic.com/page-slug https://packerlandwebsitesbasic.com/
+
+Redirect 302 https://packerlandwebsitesbasic.com/foo-bar https://packerlandwebsitesbasic.com/about-us/
+
+=== User: Miranda Date: 09-04-2019 10:03 ===
+
+Redirect 302 https://packerlandwebsitesbasic.com/test https://packerlandwebsitesbasic.com/about-us/
+
+=== User: user Date: 09-04-2019 03:35 ===
+
+Redirect 301 http://cyber-gamway.test/2019/09/04/redirect/ http://cyber-gamway.test/sample-page/
+
+=== User: user Date: 09-04-2019 03:37 ===
+
+Redirect 301 http://cyber-gamway.test/2019/09/04/redirect/ http://cyber-gamway.test/sample-page/
+
+=== User: user Date: 09-04-2019 03:37 ===
+
+Redirect 301 http://cyber-gamway.test/2019/09/04/redirect/ http://cyber-gamway.test/sample-page/
